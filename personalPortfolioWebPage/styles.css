@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    font-family: sans-serif;
+    padding:0;
+    margin: 0;
+    background: rgb(220, 252, 238);
+  }
+  
+  header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 2%;
+    background: #00203fff;
+    position: fixed;
+    width: 100%;
+  }
+  
+  header img{
+    height: 50px;
+    margin-right: auto;
+  }
+  
+  nav ul{
+    list-style: none;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+    height: 100%
+  }
+  
+  nav ul li a:hover{
+    color: rgb(254, 155, 155);
+  }
+  
+  nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  #welcome-section{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #welcome-section h1{
+    font-size: 70px
+  }
+  
+  #welcome-section p{
+    margin-top: -2.5rem;
+    font-size: 20px;
+    max-width: 70%;
+  }
+  
+  #projects{
+    background-color: rgb(254, 155, 155);
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 8rem
+  }
+  
+  .projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 80%;
+    text-align: center;
+    justify-content: center;
+    gap: 5rem
+  }
+  
+  #projects h1, #contact-section h1{
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  .project-tile a img{
+    border-radius: 20px 20px 0 0;
+    height: 100%;
+  }
+  
+  .project-tile a figcaption{
+    font-size: 20px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: white;
+    padding: 10px 0;
+  }
+  
+  .project-tile a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  #contact-section{
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #contact-section p{
+    margin-top: -2rem;
+    font-size: 20px;
+    margin-bottom: 2.5rem
+  }
+  
+  .sm-container a{
+    color: black;
+    text-decoration: none;
+    margin: 0 2rem;
+    border: 2px solid black;
+    padding: 10px;
+  }
+  
+  .sm-container a:hover{
+    color: white;
+    background: black;
+  }
+  
+  @media screen and (max-width: 992px) {
+    #welcome-section h1{
+      font-size: 45px;
+    }
+    #welcome-section p{
+    margin-top: -2rem;
+    font-size: 18px;
+    max-width: 90%;
+  }
+  
+  }
