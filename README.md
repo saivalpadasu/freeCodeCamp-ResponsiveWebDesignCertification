@@ -8,3 +8,5 @@
 - #### Technical Documentation: Here, I've created a page with a navigation bar that provides a preliminary understanding of the semantics and syntax of Python programming languages. The topics are easier to understand because I have included code snippets also for specific topics.
 - #### Product Landing Page: I've made a landing page for a water bottle with built-in filtration. This page has three sections: the price, usage instructions (which lead to a YouTube video), and information on why you should buy the bottle.
 - #### Personal Portfolio: This gives a brief intro about myself and contact details to get in touch with me and also lists all the projects that I have done so far during freeCodeCamp Certifications.
+<br><br>
+### Here is the code for all the projects that I have developed to receive the Certificate of Completion.
