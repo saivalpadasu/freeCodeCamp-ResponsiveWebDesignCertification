@@ -1,1 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Technical Documentation</title>
+  </head>
 
+  <body>
+    <main id="main-doc">
+      
+      <div class="nav-bar-container">
+        <nav id="navbar">
+          <header><h2>Python Documentation</h2></header>
+          <ul>
+            <li><a href="#What_is_Python?" class="nav-link">What is Python?</a></li>
+            <li><a href="#Data_Types_In_Python" class="nav-link">Data Types In Python</a></li>
+            <li><a href="#Functions" class="nav-link">Functions</a></li>
+            <li><a href="#Python_Strings" class="nav-link">Python Strings</a></li>
+            <li><a href="#Classes" class="nav-link">Classes</a></li>
+          </ul>
+        </nav>
+      </div>
+      
+      <div class="sections-container">
+        <section class="main-section" id="What_is_Python?">
+          <header><h1>What is Python?</h1></header>
+          <p class="indent">Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.</p>
+          <p class="no-indent">Python Syntax compared to other programming languages</p>
+          <ul class="dbl-indent">
+            <li>Python was designed for readability, and has some similarities to the English language with influence from mathematics.</li>
+            <li>Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.</li>
+            <li>Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.</li>
+          </ul>
+        </section>
+
+        <section class="main-section" id="Data_Types_In_Python">
+          <header><h1>Data Types In Python</h1></header>
+          <p class="indent">In programming, data type is an important concept. Variables can store data of different types, and different types can do different things. Python has the following data types built-in by default, in these categories:</p>
+
+          <ul class="dbl-indent">
+            <li><span>Text Type:</span> str</li>
+            <li><span>Numeric Types:</span> int, float, complex</li>
+            <li><span>Sequence Types:</span> list, tuple, range</li>
+            <li><span>Mapping Type:</span> dict</li>
+            <li><span>Set Types:</span> set, frozenset</li>
+            <li><span>Boolean Type:</span> Bool</li>
+            <li><span>Binary Types:</span> bytes, bytearray, memoryview</li>
+            <li><span>None Type:</span> NoneType</li>
+          </ul>
+
+          <p class="no-indent">Getting the Data Type</p>
+          <p class="indent">You can get the data type of any object by using the type() function:</p>
+          <code>x = 5
+<br>print(type(x))</code>
+        </section>
+
+        <section class="main-section" id="Functions">
+          <header><h1>Functions</h1></header>
+          <p class="indent">A function is a block of code which only runs when it is called. You can pass data, known as parameters, into a function. A function can return data as a result.</p>
+          <p class="no-indent">Creating a Function</p>
+          <p class="indent">In Python a function is defined using the def keyword:</p>
+          <code>def my_function():<br>
+  print("Hello from a function")</code>
+          <p class="no-indent">Calling a Function</p>
+          <p class="indent">To call a function, use the function name followed by parenthesis:</p>
+          <code>def my_function():<br>print("Hello from a function")<br> my_function()</code>
+        </section>
+
+        <section class="main-section" id="Python_Strings">
+          <header><h1>Python Strings</h1></header>
+          <p class="indent">Strings in python are surrounded by either single quotation marks, or double quotation marks.<br>'hello' is the same as "hello".</p>
+
+          <code>print("Hello")<br>
+print('Hello')</code>
+
+          <p class="no-indent">Multiline Strings</p>
+          <p class="indent">You can assign a multiline string to a variable by using three quotes:/<p>
+          <code>a = """Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."""<br> print(a)</code>
+          <p class="indent">Or three single quotes:</p>
+          <code>a = '''Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'''<br> print(a)</code>
+        </section>
+
+        <section class="main-section" id="Classes">
+          <header><h1>Classes</h1></header>
+          <p class="indent">Python is an object oriented programming language. Almost everything in Python is an object, with its properties and methods. A Class is like an object constructor, or a "blueprint" for creating objects.</p>
+          <p class="no-indent">Create a Class</p>
+          <p class="indent">To create a class, use the keyword class:</p>
+            <code>class MyClass:<br>&nbsp&nbsp&nbsp&nbspx = 5</code>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
