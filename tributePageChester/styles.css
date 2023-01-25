@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+body{
+  font-family: Kanit, sans-serif;
+  margin: 0;
+  width: 100%;
+  background: black;
+  padding-top: 20px;
+}
+
+main{
+  background-color: white;
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.header-container{
+  text-align: center;
+}
+
+.title{
+  font-family: "Zen Dots";
+  padding-top: 25px;
+}
+
+.header-container p{
+  margin-top: -10px;
+  margin-bottom: 25px
+}
+
+.image-container{
+  max-width: 96%;
+  margin: 0 auto;
+}
+
+#image{
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+img{
+  display: block;
+}
+
+.image-container figcaption{
+  text-align: center
+}
+
+.songs-container h2{
+  text-align: center;
+}
+
+.songs-container ul {
+  margin: 0 auto 30px auto;
+  max-width: 550px;
+  line-height: 30px;
+}
+
+.songs-container ul li span{
+  font-weight: bold;
+}
+
+.quote{
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: justify;
+}
+
+.wiki-link{
+  text-align: center;
+}
