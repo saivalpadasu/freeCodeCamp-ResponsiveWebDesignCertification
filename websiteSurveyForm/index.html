@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+  </head>
 
+  <body>
+    <div class="header-container">
+      <h1 id="title">Website Feedback Form</h1>
+      <p id="description"><em>Please fill in the form with complete honesty to serve you better</em></p>
+    </div>
+
+    <main>
+      <form id="survey-form">
+        <fieldset>
+          <label for="name" id="name-label">Name <input type="text" required id="name" placeholder="Your Name"></label>
+          <label for="email" id="email-label">Email <input required type="email" id="email" placeholder="Your Email"></label>
+          <label for="number" id="number-label">Rate our website
+(optional) <input type="number" id="number" min="1" max="10" placeholder="Between 1 to 10"></label>
+        </fieldset>
+        <fieldset>
+          <label for="dropdown">How did you find out about our website?
+            <select id="dropdown">
+              <option value="">(Select One)</option>
+              <option value="google">Google</option>
+              <option value="social-media">Social Media</option>
+              <option value="youtube">Youtube</option>
+              <option value="other">Other</option>
+            </select>
+          </label>
+          <label for="visit-again">Will you visit our website again?
+            <label for="maybe"><input type="radio" name="visit" id="maybe" value="maybe"> Maybe</label>
+            <label for="definitely"><input type="radio" name="visit" id="definitely" value="definitely"> Definitely</label>
+            <label for="no"><input type="radio" name="visit" id="no" value="no"> No</label>
+          </label>
+          <label>What things did you like about our website? (check all that apply)
+            <label for="nav-bar"><input type="checkbox" id="nav-bar" value="nav-bar"> Navigation Bar</label>
+            <label for="main"><input type="checkbox" id="main" value="main-page"> Main Page</label>
+            <label for="background"><input type="checkbox" id="background" value="background"> Background</label>
+            <label for="color"><input type="checkbox" id="color" value="website-colors"> Website Colors</label>
+          </label>
+        </fieldset>
+        <fieldset>
+          <label>What improvements can we make? <textarea rows="5" cols="50"></textarea></label>
+        </fieldset>
+        <input id="submit" type="submit" value="Submit">
+      </form>
+    </main>
+  </body>
+</html>
